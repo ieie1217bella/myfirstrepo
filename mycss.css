@@ -1,0 +1,27 @@
+html{
+    height:100%;
+    }
+body{
+    background-color: lemonchiffon;
+    color:green;
+    height:100%;
+}
+div{
+border:red solid 3px;
+height: 25%;
+width: 50%;
+font-size: 30px;
+color:white;
+text-align:center;
+margin: 100px 30px 10px 100px;
+padding: 5%;
+/* 마진은 창에서(div에서) 표사이의 간격을 조절해줌 
+네 군데 다 적을경우 시계방향임 * /
+/* 패딩은 보더와 컨텐츠 사이의 간격 */
+overflow: scroll
+/* 내용이 넘칠때 쓰는 코드 */
+}
+.make_class{border: blue solid 5px;}
+#u{color:black;
+border:green solid 3px;}
+.back_class{background-color: tomato;}
